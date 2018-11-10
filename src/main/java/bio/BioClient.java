@@ -20,47 +20,44 @@ public class BioClient {
 
     public void send() throws IOException {
         try {
-            PrintWriter out = new PrintWriter(new BufferedWriter(new OutputStreamWriter(socket.getOutputStream())), true);
+            PrintWriter out = new PrintWriter(new BufferedWriter(
+                    new OutputStreamWriter(socket.getOutputStream())), true);
             out.println("呵呵呵");
             out.println("hello server");
             out.println("哈哈哈");
             out.println("exit");
             out.flush();
-            InputStream inputStream=socket.getInputStream();
+            System.out.println("socket message :" + socket.toString());
+            InputStream inputStream = socket.getInputStream();
             BufferedReader in = new BufferedReader(
                     new InputStreamReader(inputStream));
             while (true) {
                 String text = in.readLine();
+                if (text == null) {
+                    continue;
+                }
                 System.out.println(text);
-                if ("exit".equals(text)||"busy".equals(text)) {
+                if ("exit".equals(text) || "busy".equals(text)) {
                     break;
                 }
             }
         } finally {
             socket.close();
+            socket = null;
         }
     }
 
     public static void main(String[] args) throws UnknownHostException, IOException {
-        for (int i = 0; i < 10; i++) {
-            new Thread(new Runnable() {
-
-                public void run() {
-                    BioClient client;
-                    try {
-                        client = new BioClient("127.0.0.1", 9000);
-                        client.send();
-                    } catch (UnknownHostException e) {
-                        // TODO Auto-generated catch block
-                        e.printStackTrace();
-                    } catch (IOException e) {
-                        // TODO Auto-generated catch block
-                        e.printStackTrace();
-                    }
-                }
-
-            }).start();
+        BioClient client;
+        try {
+            client = new BioClient("127.0.0.1", 6666);
+            client.send();
+        } catch (UnknownHostException e) {
+            // TODO Auto-generated catch block
+            e.printStackTrace();
+        } catch (IOException e) {
+            // TODO Auto-generated catch block
+            e.printStackTrace();
         }
-
     }
 }
