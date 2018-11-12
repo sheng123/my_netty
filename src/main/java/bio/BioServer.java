@@ -16,7 +16,9 @@ public class BioServer {
 
             while (true) {
                 Socket socket = serverSocket.accept();
-                new Thread(new BioServerHandle(socket)).start();
+                BioServerHandleExecutePool executePool = new BioServerHandleExecutePool(50, 10000);
+//                new Thread(new BioServerHandle(socket)).start();
+                executePool.execute(new BioServerHandle(socket));
             }
 
         } catch (IOException e) {

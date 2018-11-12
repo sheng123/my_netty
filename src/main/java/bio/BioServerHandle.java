@@ -27,8 +27,8 @@ public class BioServerHandle implements Runnable {
             while (true) {
                 String line = bufferedReader.readLine();
                 if ("exit".equals(line)) {
+                    printWriter.println("exit");
                     System.out.println("接收到 exit ，关闭连接");
-                    printWriter.print("exit");
                     break;
                 } else if (line == null) {
                     break;
