@@ -2,20 +2,39 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="00e31fa7-6705-4b69-ac7c-066d47d1bb4c" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sheng/echo/EchoClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sheng/echo/EchoClientHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sheng/echo/EchoServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sheng/echo/EchoServerHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sheng/bio/BioServer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sheng/echo/EchoClient$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sheng/echo/EchoClient.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sheng/echo/EchoClientHandler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sheng/echo/EchoServer$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sheng/echo/EchoServer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sheng/echo/EchoServerHandler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sheng/netty/ChildChannelHandler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sheng/netty/TimeClient$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sheng/netty/TimeClient.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sheng/netty/TimeServerHandler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sheng/nio/TimeClient.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sheng/nio/TimeServer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/bio/BioClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sheng/bio/BioClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/bio/BioServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sheng/bio/BioServer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/bio/BioServerHandle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sheng/bio/BioServerHandle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/bio/BioServerHandleExecutePool.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sheng/bio/BioServerHandleExecutePool.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/netty/ChildChannelHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sheng/netty/ChildChannelHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/netty/TimeClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sheng/netty/TimeClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/netty/TimeClientHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sheng/netty/TimeClientHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/netty/TimeServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sheng/netty/TimeServer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/netty/TimeServerHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sheng/netty/TimeServerHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/nio/MultiplexerTimeServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sheng/nio/MultiplexerTimeServer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/nio/TimeClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sheng/nio/TimeClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/nio/TimeClientHandle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sheng/nio/TimeClientHandle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/nio/TimeServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sheng/nio/TimeServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/bio/BioClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sheng/bio/BioClient.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/bio/BioServer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/bio/BioServerHandle.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sheng/bio/BioServerHandle.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/bio/BioServerHandleExecutePool.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sheng/bio/BioServerHandleExecutePool.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/netty/ChildChannelHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/netty/TimeClient$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/netty/TimeClient.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/netty/TimeClientHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sheng/netty/TimeClientHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/netty/TimeServer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sheng/netty/TimeServer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/netty/TimeServerHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/nio/MultiplexerTimeServer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sheng/nio/MultiplexerTimeServer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/nio/TimeClient.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/nio/TimeClientHandle.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sheng/nio/TimeClientHandle.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/nio/TimeServer.class" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -34,11 +53,37 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="TimeServer.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/sheng/netty/TimeServer.java">
+      <file leaf-file-name="EchoServer.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/sheng/echo/EchoServer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="707">
-              <caret line="44" column="34" selection-start-line="44" selection-start-column="34" selection-end-line="44" selection-end-column="34" />
+            <state relative-caret-position="669">
+              <caret line="43" column="76" lean-forward="true" selection-start-line="43" selection-start-column="76" selection-end-line="43" selection-end-column="76" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1061#1302#0" expanded="true" />
+                <element signature="e#1301#1302#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="38">
+                <caret line="2" column="34" selection-start-line="2" selection-start-column="34" selection-end-line="2" selection-end-column="34" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="EchoServerHandler.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/sheng/echo/EchoServerHandler.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="494">
+              <caret line="26" column="34" lean-forward="true" selection-start-line="26" selection-start-column="34" selection-end-line="26" selection-end-column="34" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -46,57 +91,25 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ChildChannelHandler.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/sheng/netty/ChildChannelHandler.java">
+      <file leaf-file-name="EchoClient.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/sheng/echo/EchoClient.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="380">
-              <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+            <state relative-caret-position="422">
+              <caret line="27" column="30" selection-start-line="27" selection-start-column="30" selection-end-line="27" selection-end-column="30" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#780#1021#0" expanded="true" />
+                <element signature="e#1020#1021#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TimeServerHandler.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/sheng/netty/TimeServerHandler.java">
+      <file leaf-file-name="EchoClientHandler.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/sheng/echo/EchoClientHandler.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="308">
-              <caret line="27" column="19" lean-forward="true" selection-start-line="27" selection-start-column="19" selection-end-line="27" selection-end-column="19" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#976#977#0" expanded="true" />
-                <element signature="e#1003#1004#0" expanded="true" />
-                <element signature="e#1083#1084#0" expanded="true" />
-                <element signature="e#1101#1102#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TimeClient.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/sheng/netty/TimeClient.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="36" column="36" selection-start-line="36" selection-start-column="36" selection-end-line="36" selection-end-column="36" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#770#1011#0" expanded="true" />
-                <element signature="e#1010#1011#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TimeClientHandler.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/sheng/netty/TimeClientHandler.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="387">
-              <caret line="48" column="52" lean-forward="true" selection-start-line="48" selection-start-column="52" selection-end-line="48" selection-end-column="52" />
-              <folding>
-                <element signature="e#724#725#0" expanded="true" />
-                <element signature="e#747#748#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="304">
+              <caret line="21" column="5" lean-forward="true" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -149,6 +162,11 @@
         <option value="$PROJECT_DIR$/src/main/java/netty/TimeClient.java" />
         <option value="$PROJECT_DIR$/src/main/java/netty/TimeClientHandler.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/sheng/netty/ChildChannelHandler.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sheng/echo/EchoServer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sheng/echo/EchoServerHandler.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sheng/echo/EchoClient.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sheng/echo/EchoClientHandler.java" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -224,7 +242,7 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="sheng" type="462c0819:PsiDirectoryNode" />
-              <item name="bio" type="462c0819:PsiDirectoryNode" />
+              <item name="echo" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="my_netty" type="b2602c69:ProjectViewProjectNode" />
@@ -234,15 +252,6 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="sheng" type="462c0819:PsiDirectoryNode" />
               <item name="netty" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="my_netty" type="b2602c69:ProjectViewProjectNode" />
-              <item name="my_netty" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="sheng" type="462c0819:PsiDirectoryNode" />
-              <item name="nio" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -265,6 +274,7 @@
       <recent name="netty" />
     </key>
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.sheng.echo" />
       <recent name="netty" />
       <recent name="nio" />
       <recent name="bio" />
@@ -282,17 +292,28 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.TimeClient (1)">
+  <component name="RunManager" selected="Application.EchoServer">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
     </configuration>
-    <configuration name="BioClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.sheng.bio.BioClient" />
+    <configuration name="EchoClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.sheng.echo.EchoClient" />
       <module name="MyNetty" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.sheng.bio.*" />
+          <option name="PATTERN" value="com.sheng.echo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="EchoServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.sheng.echo.EchoServer" />
+      <module name="MyNetty" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sheng.echo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -315,17 +336,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.sheng.netty.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
-    <configuration name="TimeServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.sheng.nio.TimeServer" />
-      <module name="MyNetty" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.sheng.nio.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -515,19 +525,19 @@
       <method />
     </configuration>
     <list>
-      <item itemvalue="Application.BioClient" />
-      <item itemvalue="Application.TimeServer" />
       <item itemvalue="Application.TimeClient" />
       <item itemvalue="Application.TimeServer (1)" />
       <item itemvalue="Application.TimeClient (1)" />
+      <item itemvalue="Application.EchoServer" />
+      <item itemvalue="Application.EchoClient" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.EchoServer" />
+        <item itemvalue="Application.EchoClient" />
         <item itemvalue="Application.TimeClient (1)" />
         <item itemvalue="Application.TimeServer (1)" />
         <item itemvalue="Application.TimeClient" />
-        <item itemvalue="Application.TimeServer" />
-        <item itemvalue="Application.BioClient" />
       </list>
     </recent_temporary>
   </component>
@@ -541,12 +551,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1541685056832</updated>
-      <workItem from="1542005685856" duration="37553000" />
+      <workItem from="1542005685856" duration="41689000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="37553000" />
+    <option name="totallyTimeSpent" value="41689000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -559,6 +569,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-144" y="-1080" width="1920" height="1080" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -616,24 +627,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/sheng/bio/BioServer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/sheng/bio/BioClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1050">
-          <caret line="62" column="9" lean-forward="true" selection-start-line="62" selection-start-column="9" selection-end-line="62" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/jdk1.8.0_112/src.zip!/java/net/ServerSocket.java" />
-    <entry file="jar://C:/jdk1.8.0_112/src.zip!/java/net/SocketAddress.java" />
     <entry file="jar://C:/jdk1.8.0_112/src.zip!/java/net/InetSocketAddress.java" />
     <entry file="jar://C:/jdk1.8.0_112/src.zip!/java/lang/Runnable.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/bio/TestBioChatClient.java" />
@@ -931,7 +924,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/sheng/netty/TimeServerHandler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
+        <state relative-caret-position="513">
           <caret line="27" column="19" lean-forward="true" selection-start-line="27" selection-start-column="19" selection-end-line="27" selection-end-column="19" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -945,7 +938,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/sheng/netty/TimeClient.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
+        <state relative-caret-position="460">
           <caret line="36" column="36" selection-start-line="36" selection-start-column="36" selection-end-line="36" selection-end-column="36" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -957,11 +950,50 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/sheng/netty/TimeClientHandler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="387">
+        <state relative-caret-position="631">
           <caret line="48" column="52" lean-forward="true" selection-start-line="48" selection-start-column="52" selection-end-line="48" selection-end-column="52" />
           <folding>
             <element signature="e#724#725#0" expanded="true" />
             <element signature="e#747#748#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sheng/echo/EchoClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="422">
+          <caret line="27" column="30" selection-start-line="27" selection-start-column="30" selection-end-line="27" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#780#1021#0" expanded="true" />
+            <element signature="e#1020#1021#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sheng/echo/EchoClientHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="21" column="5" lean-forward="true" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sheng/echo/EchoServerHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="494">
+          <caret line="26" column="34" lean-forward="true" selection-start-line="26" selection-start-column="34" selection-end-line="26" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sheng/netty/ChildChannelHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" column="66" selection-start-line="15" selection-start-column="45" selection-end-line="15" selection-end-column="66" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -976,23 +1008,25 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sheng/echo/EchoServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="669">
+          <caret line="43" column="76" lean-forward="true" selection-start-line="43" selection-start-column="76" selection-end-line="43" selection-end-column="76" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1061#1302#0" expanded="true" />
+            <element signature="e#1301#1302#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="38">
-            <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+            <caret line="2" column="34" selection-start-line="2" selection-start-column="34" selection-end-line="2" selection-end-column="34" />
           </first_editor>
           <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/sheng/netty/ChildChannelHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
