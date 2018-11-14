@@ -1,13 +1,10 @@
-package netty;
+package com.sheng.netty;
 
 import io.netty.buffer.ByteBuf;
 import io.netty.buffer.Unpooled;
-import io.netty.channel.ChannelHandler;
 import io.netty.channel.ChannelHandlerAdapter;
 import io.netty.channel.ChannelHandlerContext;
-import io.netty.channel.ChannelHandlerInvoker;
-import io.netty.util.concurrent.EventExecutorGroup;
-import nio.TimeClientHandle;
+import com.sheng.nio.TimeClientHandle;
 
 import java.util.logging.Logger;
 
@@ -29,7 +26,7 @@ public class TimeClientHandler extends ChannelHandlerAdapter {
     }
 
     /**
-     * 当客户端与服务端建立连接以后，netty 的 nio 线程会调用 channelActive 方法，发送指令给服务端，并调用方法把请求消息发送给服务端
+     * 当客户端与服务端建立连接以后，com.sheng.netty 的 com.sheng.nio 线程会调用 channelActive 方法，发送指令给服务端，并调用方法把请求消息发送给服务端
      * @param ctx
      */
     @Override

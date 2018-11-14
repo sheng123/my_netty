@@ -1,2 +1,2 @@
 # my_netty
-netty nio bio study
+com.sheng.netty com.sheng.nio com.sheng.bio study

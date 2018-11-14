@@ -1,4 +1,4 @@
-package bio;
+package com.sheng.bio;
 
 import java.io.BufferedReader;
 import java.io.IOException;
